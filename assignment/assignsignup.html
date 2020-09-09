@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body onload='checkLogin()'>
+    <div class="container">
+
+        <div class="form">
+
+            <form action="" method="POST">
+
+                <label for="name">Firstname:</label> <br>
+                <input type="text" name="name" placeholder="firstname" id="first_id"> <br> <br>
+
+                <label for="lastname">Lastname:</label> <br>
+                <input type="text" name="username" placeholder="lastname" id="last_id"> <br> <br>
+
+                <label for="email">Email:</label> <br>
+                <input type="email" name="email" placeholder="email" id="email_id"> <br> <br>
+
+                <label for="address">Adress:</label> <br>
+                <textarea name="address" id="address_id" placeholder="address" cols="30" rows="2"></textarea> <br> <br>
+
+                <label for="password">Password:</label> <br>
+                <input type="password" name="password" placeholder="password" id="password_id"> <br> <br>
+
+                <button type="button" onclick="register()">Register</button> <br> <br>
+
+            </form>
+        </div>
+    
+    </div>
+
+   <small>have an account already?? <a href="assignlogin.html">Log in</a></small>
+
+    <script src="assignment.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+</head>
+<body onload="checkLogout()">
+    <div class="container">
+
+        <div class="header">
+            <h4>Update your <a href="assignemail.html">email</a> | <a href='#' onclick='return getNotes()'>My Notes</a> </h4>
+
+            <div class="btn">
+                <button type="button" onclick="logout()">Log out</button>
+            </div>
+            
+        </div>
+
+        <div class='notes'>
+            <form>
+                <div>
+                <input type='text' id='note_id' placeholder="Note title"><br><br>
+                </div>
+
+                <div>
+
+                <textarea id='note_body_id' placeholder="Note"></textarea>
+                </div>
+
+                <div>
+                    <button type='button' onclick='return createNote()'>Create Note</button>
+                </div>
+            </form>
+        </div>
+        
+        <div id='notes_info'>
+         
+        </div>
+        <div id='notes_content_id'></div>
+        
+    </div>
+
+    <script src="assignment.js"></script>
+</body>
+</html>

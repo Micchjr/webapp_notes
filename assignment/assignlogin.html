@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body onload='checkLogin()'>
+    <div class="container">
+
+        <div class="login">
+            <div class="signup" id="signup"></div>
+                <label for="username">Email</label> <br>
+                <input type="text" placeholder="email" id="email_idl"> <br><br>
+
+                <label for="password">Password</label> <br>
+                <input type="password" placeholder="password" id="password_idl"> <br><br>
+
+                <button id="showpass" onclick="return showpass()">show password</button> <br> <br>  
+
+                <button type="button" onclick="login()">log in</button> <br> <br>
+
+                <small>Don't have an account yet?? <a href="assignsignup.html">Sign up here..</a></small>
+            
+        </div>
+    </div>
+
+    <script src="assignment.js"></script>
+</body>
+</html>
